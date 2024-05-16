@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+        caption{
+            font-size: 22px;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead,tfoot{
+            background-color: #383838;
+            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        td.num{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header>
+        <nav>
+            <ul>
+                <li><a href="tabela1.html">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    <table>
+        <caption>POPULAÇÃO DOS ESTADOS</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>Quantidade</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 milhões</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 milhões</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>44 milhões</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <th>84 milhões</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
