@@ -40,3 +40,7 @@ td,th{
 td.num{
     text-align: center;
 }
+img{
+    height: 50px;
+    width: 75px;
+}
